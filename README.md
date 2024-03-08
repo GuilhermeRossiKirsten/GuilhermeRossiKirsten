@@ -11,6 +11,10 @@
 |--|--|--|--|--|--|
 <br>
 
+[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/CaioMBA)
+![Gitlab](https://img.shields.io/badge/GitLab-330F63?style=for-the-badge&logo=gitlab&logoColor=white)
+![AzureDevOps](https://img.shields.io/badge/Azure_DevOps-0078D7?style=for-the-badge&logo=azure-devops&logoColor=white)
+
 ## Programming Languages
 
 <p align="left">
@@ -28,6 +32,50 @@
 <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original.svg" alt="Docker" width="25" height="25" />
 <img src="https://www.vectorlogo.zone/logos/kubernetes/kubernetes-icon.svg" alt="Kubernetes" width="25" height="25" />
 
+
 </p>
 
-## Programming Languages
+    import java.util.ArrayList;import java.util.List;import java.util.UUID;
+
+    public class WhoAmI {
+        private String firstName = "Guilherme";
+        private String lastName = "Kirsten";
+        private UUID uuid = UUID.randomUUID();
+        private String[] hobbies = {
+                "Assistir filmes",
+                "Jogar online",
+                "Viajar",
+                "Ficar acordado até achar aquele maldito BUG..."
+        };
+        List<String> ambitions = new ArrayList<>();
+
+        public WhoAmI() {
+            // Adicionando ambições
+            ambitions.add("Aprender inglês");
+            ambitions.add("Explorar novas tecnologias");
+            ambitions.add("Aprender a tocar um instrumento musical");}
+
+        public String getCity() {
+            return "São Paulo, Brasil";}
+
+        public void listHobbies() {
+            System.out.println("Meus hobbies são:");
+            for (String hobby : hobbies) {
+                System.out.println("- " + hobby);} }
+
+        public void listAmbitions() {
+            System.out.println("Minhas ambições são:");
+            for (String ambition : ambitions) {
+                System.out.println("- " + ambition); }}
+
+        public static void main(String[] args) {
+            WhoAmI person = new WhoAmI();
+            System.out.println("Usuário: " + person.firstName + ". " + person.lastName);
+            System.out.println("Que a Força esteja com você, " + person.uuid +". Você é único em toda a galáxia.\"");
+            System.out.println("Cidade: " + person.getCity());
+            System.out.println();
+            person.listHobbies();
+            System.out.println();
+            person.listAmbitions();
+        }
+    }
