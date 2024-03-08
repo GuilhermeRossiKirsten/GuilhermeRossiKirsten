@@ -1,6 +1,6 @@
 <h2>Hey 👋, I'm <a href="www.linkedin.com/in/guilherme-rossi-kirsten">Rossik</a></h2>
 
-<img src="https://media.giphy.com/media/Vuw9m5wXviFIQ/source.gif" width="300" height="auto" alt = 'Awesome Matrix Code' align='right' />
+<img src="https://media.giphy.com/media/Vuw9m5wXviFIQ/source.gif" width="250" height="auto" alt = 'Awesome Matrix Code' align='right' />
 
 
 [![Linkedin Badge](https://img.shields.io/badge/-Linkedin-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/guilherme-rossi-kirsten-61853a176/)](https://www.linkedin.com/in/haany-ali) [![Gmail Badge](https://img.shields.io/badge/-Gmail-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:eree0593@gmail.com)](mailto:eree0593@gmail.com) [![Youtube Channel](https://img.shields.io/badge/-Youtube-c14438?style=flat-square&logo=Youtube&link=https://www.youtube.com/@guilhermerossikirsten6778)](https://www.youtube.com/@guilhermerossikirsten6778)
