@@ -50,24 +50,25 @@
         List<String> ambitions = new ArrayList<>();
 
         public WhoAmI() {
-            // Adicionando ambições
             ambitions.add("Aprender inglês");
             ambitions.add("Explorar novas tecnologias");
-            ambitions.add("Aprender a tocar um instrumento musical");}
-
+            ambitions.add("Aprender a tocar um instrumento musical");
+        }
         public String getCity() {
-            return "São Paulo, Brasil";}
-
+            return "São Paulo, Brasil";
+        }
         public void listHobbies() {
             System.out.println("Meus hobbies são:");
             for (String hobby : hobbies) {
-                System.out.println("- " + hobby);} }
-
+                System.out.println("- " + hobby);
+            } 
+        }
         public void listAmbitions() {
             System.out.println("Minhas ambições são:");
             for (String ambition : ambitions) {
-                System.out.println("- " + ambition); }}
-
+                System.out.println("- " + ambition); 
+            }
+        }
         public static void main(String[] args) {
             WhoAmI person = new WhoAmI();
             System.out.println("Usuário: " + person.firstName + ". " + person.lastName);
