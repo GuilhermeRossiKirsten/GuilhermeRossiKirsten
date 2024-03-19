@@ -72,7 +72,7 @@
         public static void main(String[] args) {
             WhoAmI person = new WhoAmI();
             System.out.println("Usuário: " + person.firstName + ". " + person.lastName);
-            System.out.println("Que a Força esteja com você, " + person.uuid +". Você é único em toda a galáxia.\"");
+            System.out.println("Que a Força esteja com você, " + person.uuid +". Você é único em toda a galáxia.");
             System.out.println("Cidade: " + person.getCity());
             System.out.println();
             person.listHobbies();
