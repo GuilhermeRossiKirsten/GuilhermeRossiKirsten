@@ -1,4 +1,4 @@
-<h2>Hey 👋, I'm <a href="www.linkedin.com/in/guilherme-rossi-kirsten">Rossik</a></h2>
+<h2>Hey 👋, I'm <a href="https://www.linkedin.com/in/guilherme-rossi-kirsten/">Rossik</a></h2>
 
 <img src="https://media.giphy.com/media/Vuw9m5wXviFIQ/source.gif" width="250" height="auto" alt = '' align='right' />
 
